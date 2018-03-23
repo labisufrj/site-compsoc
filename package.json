@@ -1,0 +1,23 @@
+{
+  "name": "site-compsoc",
+  "version": "1.0.0",
+  "description": "Plataforma online feita de acordo com demandas da matéria de Computador e Sociedade da Engenharia de Computação e Informação - UFRJ.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labisufrj/site-compsoc.git"
+  },
+  "author": "Gabriel Mendes de Moraes, João Gabriel Lopes Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labisufrj/site-compsoc/issues"
+  },
+  "homepage": "https://github.com/labisufrj/site-compsoc#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}

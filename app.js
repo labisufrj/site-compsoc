@@ -1,10 +1,15 @@
+// Inicializando o express
 var express = require("express");
 var app = express();
 
-app.get("/", function(req, res){
-	res.send("<p>Olá</p>");
-})
+// Define diretório base como root de conteúdo estático 
+app.use(express.static(__dirname));
 
+app.get("/", function(req, res){
+	res.render("home.ejs");
+});
+
+// Inicializa o servidor na porta 8000
 app.listen(8000, function(){
 	console.log("Servidor Rodando");
 });
